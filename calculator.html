@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="calc.js"></script>
+  </head>
+  <style>
+    .box
+    {
+        padding: 50px;
+    }
+  </style>
+  <body>
+    <center>
+      <div class="box">
+        <label>Number1: </label><input type="text" id="num1"><br /><br />
+        <label>Number2: </label><input type="text" id="num2"><br /><br />
+        <label>Result:- <span id="res"></span></label><br><br>
+
+        <button id="add" onclick="return add()">Addition</button>
+        <button id="sub" onclick="return sub()">Substration</button>
+        <button id="mult" onclick="return mult()">Multiplication</button>
+        <button id="div" onclick="return div()">Division</button>
+      </div>
+    </center>
+  </body>
+</html>
